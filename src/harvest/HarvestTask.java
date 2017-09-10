@@ -9,10 +9,10 @@ public class HarvestTask
 {
 	public static void main (String[] args)
 	{
-		City stLouis = new City("Field.txt");
-		stLouis.showThingCounts(true);
-                Robot mark = new Robot(stLouis,0, 2, Direction.WEST);
-                		
+		City Brussels = new City("Field.txt");
+		Brussels.showThingCounts(true);
+                Robot mark = new Robot(Brussels,0, 2, Direction.WEST);
+                
 		mark.move ();
         	mark.move ();
 	}
